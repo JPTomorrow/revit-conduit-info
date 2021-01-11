@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PrefixAssembly>WireBOMLite</PrefixAssembly> <!-- Assembly name prefix (should be the name of the program) -->
+    <PrefixAssembly>ConduitRunInfo</PrefixAssembly> <!-- Assembly name prefix (should be the name of the program) -->
   </PropertyGroup>
 
   <PropertyGroup>

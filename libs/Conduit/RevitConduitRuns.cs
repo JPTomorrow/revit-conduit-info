@@ -233,7 +233,7 @@ namespace JPMorrow.Revit.ConduitRuns
 		private double GetTotalBends(ModelInfo info)
 		{
 			double ret_dbl = 0;
-			foreach (var id in ConduitIds)
+			foreach (var id in FittingIds)
 			{
 				Element conduit = info.DOC.GetElement(new ElementId(id));
 				if (conduit.LookupParameter("Angle") != null)
@@ -327,8 +327,7 @@ namespace JPMorrow.Revit.ConduitRuns
 			Connector next_connector = end_connectors[0];
 			string prev_type = first_conduit.Name;
 
-			void setPrevType(Element el)
-			{
+			void setPrevType(Element el) {
 				if(el.Category.Name.Equals("Conduits"))
 					prev_type = el.Name;
 			}

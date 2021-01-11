@@ -189,8 +189,6 @@
             <RowDefinition Height="20"/>
             <RowDefinition Height="20"/>
             <RowDefinition Height="20"/>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="20"/>
 
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
@@ -203,12 +201,12 @@
             <Image Source="./res/exit.png" Stretch="fill" VerticalAlignment="center"/>
         </Button>
         
-        <TextBlock Text="{Binding FromTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="18" TextDecorations="Underline" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center"/>
-        <TextBlock Text="{Binding ToTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="18" TextDecorations="Underline" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center"/>
-        <TextBlock Text="{Binding TypeTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="18" TextDecorations="Underline" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center"/>
-        <TextBlock Text="{Binding DiameterTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="18" TextDecorations="Underline" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center"/>
-        <TextBlock Text="{Binding LengthTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="18" TextDecorations="Underline" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center"/>
-        <TextBlock Text="{Binding BendsTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="18" TextDecorations="Underline" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center"/>
+        <TextBlock Text="{Binding FromTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="14"     Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" VerticalAlignment="center" Foreground="White"/>
+        <TextBlock Text="{Binding ToTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="14"       Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="7" VerticalAlignment="center" Foreground="White"/>
+        <TextBlock Text="{Binding TypeTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="14"     Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="7" VerticalAlignment="center" Foreground="White"/>
+        <TextBlock Text="{Binding DiameterTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="14" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="7" VerticalAlignment="center" Foreground="White"/>
+        <TextBlock Text="{Binding LengthTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="14"   Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="7" VerticalAlignment="center" Foreground="White"/>
+        <TextBlock Text="{Binding BendsTxt, Mode=TwoWay}" Margin="10,0,0,0" FontSize="14"    Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="7" VerticalAlignment="center" Foreground="White"/>
         
     </Grid>
 </Window>
